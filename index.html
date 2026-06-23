@@ -37,9 +37,8 @@
         <script src="js/leaflet.photon.js"></script>
         <script src="data/DataCenterOppositionMovements_1.js"></script>
         <script>
-        var map = L.map('map', {
-            zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[22.970613356377175,-130.51347012107763],[52.25784570098522,-59.36076151377095]]);
+        var map = L.map('map', { zoomControl:false, maxZoom:17, minZoom:1 }).fitBounds([[24.396308, -124.848974], [49.384358, -66.885444]]);
+		</script>
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
